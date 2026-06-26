@@ -1,5 +1,5 @@
 # Catppuccin Macchiato Monaco Theme Demo
-⚠️Note that this is being used as part of retard-central.neocities.org (specifically https://retard-central.neocities.org/monaco) meaning it will not be updated. The repo is purely designed for showing how I implemented the theming not for legitimate development⚠️
+⚠️Note that this is being used as part of retard-central.neocities.org (specifically https://retard-central.neocities.org/monaco) meaning it will not be updated very often. The repo is purely designed for showing how I implemented the theming not for legitimate development⚠️
 
 ## monaco.html
 
