@@ -1,0 +1,2 @@
+https://registry.npmjs.org/monaco-editor/0.56.0-dev-20260211
+https://registry.npmjs.org/monaco-editor/-/monaco-editor-0.56.0-dev-20260211.tgz

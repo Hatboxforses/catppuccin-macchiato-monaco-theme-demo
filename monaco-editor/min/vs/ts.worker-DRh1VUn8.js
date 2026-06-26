@@ -1,0 +1,1 @@
+define("vs/ts.worker-DRh1VUn8", ["require", "exports"], (function(require, r){"use strict";const e=""+new URL(require.toUrl("./assets/ts.worker-Cf0UmErc.js"),document.baseURI).href;r.__worker_url_0__=e}));

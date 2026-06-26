@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <link rel="shortcut icon" type="image/jpeg" href="/images/monaco.jpg">
+ 		   <meta charset="UTF-8">
+		<title>Monaco Editor</title>
+    </head>
+	<body>
+    	<div id="container" style="min-width: 98vw; min-height: 94vh"></div>
+		<script src="./monaco-editor/min/vs/loader.js"></script>
+		<script src="./monaco-editor/themes/macchiato.js"></script>
+		<script>
+			require.config({ paths: { vs: './monaco-editor/min/vs' } });
+				require(['vs/editor/editor.main'], function () {
+					monaco.editor.defineTheme('my-dark', themeData);
+						var editor = monaco.editor.create(document.getElementById('container'), {
+							value: ['Hello what a beautiful day it is', 'to be a text editor!', 'The website source code is', 'available on Github!', 'https://github.com/Hatboxforses/retard-central.neocities'].join('\n'),
+							language: 'text',
+							theme: "my-dark"
+						});
+      			});
+		</script>
+	</body>
